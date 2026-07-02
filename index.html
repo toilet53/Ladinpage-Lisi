@@ -12,27 +12,92 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Umbrella Corp</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Umbrella corporation.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Armas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Armas Biologicas</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Sustancias de virus</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Armas Biologicas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Nemessis</a></li>
+                            <li><a class="dropdown-item" href="#"> Tyrant</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Repelente</a></li>
+                        </ul>
+                    </li>
+
                     </li>
                 </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Busqueda.</button>
+                </form>
             </div>
         </div>
     </nav>
+
+
+
+
+
+
+    <H1>Umbrella Corporation: Nuestro Negocio es la Vida Misma. </H1>
+    <p>Bienvenido al portal oficial de suministros de Umbrella Corporation. Como líderes globales en biotecnología,
+        productos farmacéuticos y desarrollo industrial, nos dedicamos a dar forma al futuro de la salud y la seguridad
+        mundial.</p>
+
+
+    <div class="card-group">
+        <div class="card">
+            <img src="skibidinemessis.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nemessis</h5>
+                <p class="card-text">Super Tyrant que caza al usuario solicitado por el comprador..</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="MRX.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">MR.X- Tyrant</h5>
+                <p class="card-text">Acechador constante del usuario seleccionado por el comprador.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="licker.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Licker</h5>
+                <p class="card-text">Bestia hecha para cazaerias de animales y/o humanos.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
 </body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+
 
 </html>
